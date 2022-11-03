@@ -1,0 +1,646 @@
+<!-- 
+Вебсайт розроблено за графічним макетом "APPBIES".
+Усі авторські права на графічний макет належать його автору.
+Розробка вебсайту по макету виконувалась з навчальною метою без
+отримання в майбутньому грошової винагороди. 
+
+Автор розробки вебсайту: Андрій Овчаров;
+E-mail автора: datoshcode@gmail.com;
+Дата розробки вебсайту: 03.06.2022.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APPBIES</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Logo and menu -->
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <!-- Logo -->
+          <div class="header__logo logo">
+            <a href="#">
+              <img
+                class="header__logo-img"
+                src="images/logos/header_logo.png"
+                alt="logo"
+              />
+            </a>
+          </div>
+          <!-- Navigation menu -->
+          <nav class="menu">
+            <!-- Меню бургер для адаптива -->
+            <button class="menu__btn">
+              <span></span>
+            </button>
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#features">Features</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#screenshot">Screenshot</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#about">About</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Team</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Pricing</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Logo and menu /END -->
+
+    <!-- Main banner -->
+    <section class="top">
+      <div class="container">
+        <div class="top__inner">
+          <div class="top__content">
+            <h1 class="top__title">
+              Showcase your App with
+              <a class="top__title-link" href="#" target="_blank"
+                >PsdFreebies.com</a
+              >
+            </h1>
+            <p class="top__text">
+              Proin scelerisque fringilla magna bibendum dui tempor velnteger
+              accumsan fermentum leousce viverraelnteger.
+            </p>
+            <a class="top__btn" href="#">Download</a>
+          </div>
+          <div class="top__products">
+            <!-- Phone green wow fadeInUp-->
+            <div
+              class="top__product-1"
+              data-wow-delay="0.4s"
+              data-wow-duration="0.6s"
+            >
+              <img
+                class="top__product-img"
+                src="images/header/green_phone.png"
+                alt="green phone"
+              />
+            </div>
+
+            <!-- Phone blue wow fadeInUp-->
+            <div
+              class="top__product-2"
+              data-wow-delay="0.2s"
+              data-wow-duration="0.6s"
+            >
+              <img
+                class="top__product-img"
+                src="images/header/blue_phone.png"
+                alt="blue phone"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Main baner /END -->
+
+    <!--Get it for Free  -->
+    <section class="getfree">
+      <div class="getfree__bg">
+        <div class="container">
+          <div class="getfree__inner">
+            <div class="getfree__header">
+              <h2 class="getfree__title title">Get it for Free</h2>
+              <p class="getfree__about">
+                Choose your native platform and download the app FREE!
+              </p>
+            </div>
+            <div class="getfree__buttons">
+              <a class="getfree__btn" href="#">Google Play</a>
+              <a class="getfree__btn" href="#">IOS App Store</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Get it for Free /END  -->
+
+    <!-- Some Amazing Features -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="features__inner">
+          <div class="features__content">
+            <h2 class="features__title title">Some Amazing Features</h2>
+
+            <!-- Перечень опций -->
+            <div class="features__box">
+              <!-- costomize icon -->
+              <div class="features__items">
+                <img
+                  class="features__icon"
+                  src="images/icons/costomize.png"
+                  alt="costomize ico"
+                />
+                <p>Easy to customize</p>
+              </div>
+
+              <!-- design icon -->
+              <div class="features__items">
+                <img
+                  class="features__icon"
+                  src="images/icons/design.png"
+                  alt="design ico"
+                />
+                <p>Responsive design</p>
+              </div>
+
+              <!-- showcase icon -->
+              <div class="features__items">
+                <img
+                  class="features__icon"
+                  src="images/icons/showcase.png"
+                  alt="showcase ico"
+                />
+                <p>Perfect showcase</p>
+              </div>
+
+              <!-- support icon -->
+              <div class="features__items">
+                <img
+                  class="features__icon"
+                  src="images/icons/support.png"
+                  alt="support ico"
+                />
+                <p>App store support</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Изображения телефонов -->
+          <div class="features__products">
+            <!-- Два смарфона wow fadeInDown -->
+            <div
+              class="features__product-1"
+              data-wow-delay="0.2s"
+              data-wow-duration="0.6s"
+            >
+              <img src="images/features/aside_phones.png" alt="phones" />
+            </div>
+
+            <!-- Смартфон по центру wow fadeInUp-->
+            <div
+              class="features__product-2"
+              data-wow-delay="0.4s"
+              data-wow-duration="0.6s"
+            >
+              <img src="images/features/center_phone.png" alt="phone" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Some Amazing Features /END -->
+
+    <!-- Why Choose AppBies -->
+    <section class="advantages">
+      <div class="advantages__bg">
+        <div class="container">
+          <div class="advantages__header">
+            <h2 class="advantages__title title">Why Choose AppBies</h2>
+            <p class="advantages__about">
+              Choose your native platform and download the app FREE!
+            </p>
+          </div>
+          <div class="advantages__inner">
+            <!-- Left item -->
+            <div class="advantages__box">
+              <div class="advantages__items">
+                <h3 class="advantages__item-title">
+                  Clean code and responsive
+                </h3>
+                <p class="advantages__item-text">
+                  Proin scelerisque fringilla magna bibendum dui tempor
+                  velnteger accumsan fermentum leousce viverraelnteger.
+                </p>
+              </div>
+              <div class="advantages__items">
+                <h3 class="advantages__item-title">CSS3 animations</h3>
+                <p class="advantages__item-text">
+                  Proin scelerisque fringilla magna bibendum dui tempor
+                  velnteger accumsan fermentum leousce viverraelnteger.
+                </p>
+              </div>
+              <div class="advantages__items">
+                <h3 class="advantages__item-title">Gorgeous design</h3>
+                <p class="advantages__item-text">
+                  Proin scelerisque fringilla magna bibendum dui tempor
+                  velnteger accumsan fermentum leousce viverraelnteger.
+                </p>
+              </div>
+            </div>
+
+            <!-- Center item -->
+            <!-- Изображение телефона -->
+            <div class="advantages__box">
+              <div class="advantages__items">
+                <div class="advantages__item-img">
+                  <img src="images/features/center_phone-big.png" alt="phone" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Right item -->
+            <div class="advantages__box">
+              <div class="advantages__items">
+                <h3 class="advantages__item-title">Easy to customize</h3>
+                <p class="advantages__item-text">
+                  Proin scelerisque fringilla magna bibendum dui tempor
+                  velnteger accumsan fermentum leousce viverraelnteger.
+                </p>
+              </div>
+              <div class="advantages__items">
+                <h3 class="advantages__item-title">Express layout</h3>
+                <p class="advantages__item-text">
+                  Proin scelerisque fringilla magna bibendum dui tempor
+                  velnteger accumsan fermentum leousce viverraelnteger.
+                </p>
+              </div>
+
+              <div class="advantages__items">
+                <h3 class="advantages__item-title">Easy to customize</h3>
+                <p class="advantages__item-text">
+                  Proin scelerisque fringilla magna bibendum dui tempor
+                  velnteger accumsan fermentum leousce viverraelnteger.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Why Choose AppBies /END-->
+
+    <!-- App Screenshots -->
+    <section class="screenshots" id="screenshot">
+      <div class="container">
+        <div class="screenshots__header">
+          <h2 class="screenshots__title title">App Screenshots</h2>
+        </div>
+        <div class="screenshots__slider">
+          <!-- Slide 1 -->
+          <div class="screenshots__slider-item">
+            <img
+              class="screenshots__slider-image"
+              src="images/slider/slider_phone_1.png"
+              alt="Phone"
+            />
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="screenshots__slider-item">
+            <img
+              class="screenshots__slider-image"
+              src="images/slider/slider_phone_1.png"
+              alt="Phone"
+            />
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="screenshots__slider-item">
+            <img
+              class="screenshots__slider-image"
+              src="images/slider/slider_phone_1.png"
+              alt="Phone"
+            />
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="screenshots__slider-item">
+            <img
+              class="screenshots__slider-image"
+              src="images/slider/slider_phone_1.png"
+              alt="Phone"
+            />
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="screenshots__slider-item">
+            <img
+              class="screenshots__slider-image"
+              src="images/slider/slider_phone_1.png"
+              alt="Phone"
+            />
+          </div>
+
+          <!-- Slide 6 -->
+          <div class="screenshots__slider-item">
+            <img
+              class="screenshots__slider-image"
+              src="images/slider/slider_phone_1.png"
+              alt="Phone"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- App Screenshots /END -->
+
+    <!-- App Video Showcase -->
+    <section class="showcase" id="about">
+      <div class="showcase__bg">
+        <div class="container">
+          <div class="showcase__header">
+            <h2 class="showcase__title title">App Video Showcase</h2>
+
+            <!-- Video -->
+            <div
+              class="showcase__video video-popup"
+              style="background-image: url(images/video_img/video_screen.jpg)"
+            >
+              <a class="showcase__link" href="#" target="_blank">
+                <img
+                  class="showcase__link-img"
+                  src="images/icons/play-white.svg"
+                  alt="Icon play video"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- App Video Showcase /END-->
+
+    <!-- Download & Updates -->
+    <section class="downloads">
+      <div class="container">
+        <div class="downloads__header">
+          <h2 class="downloads__title title">Download & Updates</h2>
+        </div>
+        <div class="downloads__inner">
+          <div class="downloads__box">
+            <div class="downloads__items product-android">
+              <div class="downloads__item-about">
+                <img
+                  class="downloads__item-img"
+                  src="images/icons/android.png"
+                  alt="icon android"
+                />
+                <p class="downloads__item-sum">2118</p>
+                <p class="downloads__item-text">Downloads</p>
+              </div>
+            </div>
+            <div class="downloads__items product-apple">
+              <div class="downloads__item-about">
+                <img
+                  class="downloads__item-img"
+                  src="images/icons/apple.png"
+                  alt="icon apple"
+                />
+                <p class="downloads__item-sum">2118</p>
+                <p class="downloads__item-text">Downloads</p>
+              </div>
+            </div>
+            <div class="downloads__items product-windows">
+              <div class="downloads__item-about">
+                <img
+                  class="downloads__item-img"
+                  src="images/icons/windows.png"
+                  alt="icon windows"
+                />
+                <p class="downloads__item-sum">2118</p>
+                <p class="downloads__item-text">Downloads</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Форма подписки на рассылку новостей -->
+          <div class="downloads__box">
+            <div class="downloads__item-form">
+              <p class="downloads__form-text">
+                We promise, your mail never will be spam.
+              </p>
+              <form class="downloads__form">
+                <input
+                  class="downloads__form-input"
+                  type="text"
+                  placeholder="Enter Email Address"
+                />
+                <button class="downloads__form-btn" type="submit">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="downloads__box-img">
+          <img
+            class="downloads__img"
+            src="images/download_updates/horisont_phone.png"
+            alt="Phone"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Download & Updates /END -->
+
+    <!-- App Support -->
+    <section class="contacts">
+      <div class="contacts__bg">
+        <div class="container">
+          <div class="contacts__header">
+            <h2 class="contacts__title title">App Support</h2>
+            <div class="contacts__inner">
+              <div class="contacts__box">
+                <!-- Форма связи -->
+                <form class="contacts__form">
+                  <input
+                    class="contacts__form-input"
+                    type="text"
+                    placeholder="Full Name"
+                  />
+                  <input
+                    class="contacts__form-input"
+                    type="email"
+                    placeholder="Email"
+                  />
+                  <input
+                    class="contacts__form-input"
+                    type="tel"
+                    placeholder="Phone"
+                  />
+                  <textarea
+                    class="contacts__form-textarea"
+                    placeholder="Message"
+                  ></textarea>
+                  <button class="contacts__form-btn" type="submit">
+                    Submit
+                  </button>
+                </form>
+              </div>
+
+              <!-- Контактные данные -->
+              <div class="contacts__box">
+                <!-- Телефон -->
+                <div class="contacts__item-address">
+                  <img
+                    class="contacts__item-address-img"
+                    src="images/icons/phone.png"
+                    alt="phone"
+                  />
+                  <p>+444 1234 567890</p>
+                </div>
+
+                <!-- Почтовый ящик -->
+                <div class="contacts__item-address">
+                  <img
+                    class="contacts__item-address-img"
+                    src="images/icons/mail.png"
+                    alt="email"
+                  />
+                  <p>info@psdfreebies.com</p>
+                  <p>support@psdfreebies.com</p>
+                </div>
+
+                <!-- Адрес места расположения -->
+                <div class="contacts__item-address">
+                  <img
+                    class="contacts__item-address-img"
+                    src="images/icons/marker.png"
+                    alt="marker map"
+                  />
+                  <p>
+                    293 S Alameda st <br />
+                    Main Road, London
+                  </p>
+                </div>
+              </div>
+
+              <!-- Чат -->
+              <div class="contacts__box">
+                <div class="contacts__item-chat">
+                  <h3 class="contacts__chat-title">Online Chat</h3>
+                  <img
+                    class="contacts__chat-avatar"
+                    src="images/footer/avatar.jpg"
+                    alt="User photo"
+                  />
+                  <p class="contacts__chat-user-name">John Thoms</p>
+                  <span
+                    class="contacts__chat-online contacts__chat-status active-chat"
+                    >Online</span
+                  >
+                  <!-- Для отображения чата ofline, перенеси сюда класс .active-chat с верхнего spana -->
+                  <span class="contacts__chat-ofline contacts__chat-status"
+                    >Ofline</span
+                  >
+                  <a class="contacts__chat-btn" href="#">Start Chat</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- App Support /END -->
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+      <div class="container">
+        <div class="footer__logo logo">
+          <a href="#">
+            <img
+              class="footer__logo-img"
+              src="images/logos/footer_logo.png"
+              alt="logo"
+            />
+          </a>
+        </div>
+
+        <!-- Наши социальные сети -->
+        <div class="footer__social">
+          <ul class="footer__social-list">
+            <!-- Facebook -->
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <img
+                  class="footer__social-img"
+                  src="images/icons/facebook.png"
+                  alt="Facebook"
+                />
+              </a>
+            </li>
+
+            <!-- Telegram -->
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <img
+                  class="footer__social-img"
+                  src="images/icons/telegram.png"
+                  alt="Telegram"
+                />
+              </a>
+            </li>
+
+            <!-- Linkedin -->
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <img
+                  class="footer__social-img"
+                  src="images/icons/linkedin.png"
+                  alt="Linkedin"
+                />
+              </a>
+            </li>
+
+            <!-- YouTube -->
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <img
+                  class="footer__social-img"
+                  src="images/icons/youtube.png"
+                  alt="YouTube"
+                />
+              </a>
+            </li>
+
+            <!-- Skype -->
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <img
+                  class="footer__social-img"
+                  src="images/icons/skype.png"
+                  alt="Skype"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Авторские права -->
+        <div class="footer__copy">
+          <p class="footer__copy-text">
+            Copyrights &copy; PSDFreebies.com | All&nbsp;rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer /END -->
+
+    <!-- Scripts -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
