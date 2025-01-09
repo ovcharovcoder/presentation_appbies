@@ -1,6 +1,6 @@
 # Вебсайт "APPBIES".
-- Вебсайт розроблено за графічним макетом "APPBIES".
-- Автор розробки вебсайту: Андрій Овчаров;
+- The website is designed using the "APPBIES" graphic layout.
+- Website developer: Andriy Ovcharov;
 - E-mail автора: datoshcode@gmail.com;
-- Дата розробки вебсайту: 03.06.2022.
-- [Переглянути вебсайт](https://ovcharovcoder.github.io/presentation_appbies/)
+- Website development date: 03.06.2022.
+- [View website](https://ovcharovcoder.github.io/presentation_appbies/)
