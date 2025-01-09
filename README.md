@@ -1,4 +1,4 @@
-# Вебсайт "APPBIES".
+# Website "APPBIES".
 - The website is designed using the "APPBIES" graphic layout.
 - Website developer: Andriy Ovcharov;
 - E-mail автора: datoshcode@gmail.com;
